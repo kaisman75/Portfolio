@@ -1,6 +1,6 @@
 .navbar-expand-lg{
     position: fixed;
-    width: 100%;
+    width: 80%;
     z-index: 1;
 }
 .navbar-brand{
@@ -38,4 +38,7 @@
     border-left: 2.5px solid royalblue;
     border-bottom: 2.5px solid royalblue;
     padding: 2rem;
+}
+.navbar-toggler-icon{
+    background-color: fff;
 }
