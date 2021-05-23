@@ -1,0 +1,41 @@
+.navbar-expand-lg{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 2;
+    align-items: center;
+    text-align:center;
+    justify-content: end;
+    
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    color: aquamarine;
+    text-transform: uppercase;
+    font-size:15px;
+    letter-spacing: 0.22rem;
+    margin-right: 10px;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+
+}
+.navbar-light .navbar-nav .nav-link:focus{
+    color: white;
+    border-right: 2.5px solid royalblue;
+    border-left: 2.5px solid royalblue;
+    border-bottom: 2.5px solid royalblue;
+    padding: 2rem;
+}
