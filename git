@@ -1,0 +1,11 @@
+[33mcommit 57f351942ab024b01ab77d3501584f90ebaba36a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: kaisman75 <kaismanai1975gmail.com>
+Date:   Sun May 23 11:46:14 2021 +0100
+
+    project setup
+
+[33mcommit 1331aa880b6265b87c26a2cd296e6b77ed3e033d[m
+Author: kaisman75 <kaismanai1975gmail.com>
+Date:   Sun Feb 14 16:48:44 2021 +0100
+
+    Initialize project using Create React App
