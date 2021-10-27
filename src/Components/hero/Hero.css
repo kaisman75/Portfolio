@@ -1,19 +1,25 @@
 .heroPage{
-  width: 100%;
-  height: 120vh;
-  box-sizing: border-box;
-  background-color: rgba(9, 9, 15, 0.801);
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(148, 110, 236, 0.712);
+  display: flex;
+  justify-content:center;
+  align-items: center;
 }
 .hero-name{
-    
-    margin:8rem auto;
-    position:absolute;
+  
+ width:50vw;
+ 
 }
 .react-reveal {
-  color:rgb(0, 0, 0);
+  color:rgb(14, 1, 1);
   margin: 2rem  ; 
   font-size: 4rem;
   font-family: 'Lobster', cursive;
 }
-
+.hero-Img{
+  width:50%;
+  opacity: 0.8;
+  margin:auto 10px;
+}
  

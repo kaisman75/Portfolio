@@ -1,32 +1,50 @@
-.navbar-expand-lg{
-    position: fixed;
-    width: 80%;
-    z-index: 1;
+@media screen and(max-widh:767px)and(min-width:576px) {
+    .collaps .navbar-collaps ul{
+      display: none;
+    }
 }
-.navbar-brand{
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ .navbar-expand-lg{
+    position: fixed;
+    width:80vw;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-light .navbar-brand{
     font-family: 'Lobster', cursive;
     font-size: 2rem;
     font-weight: 800;
-    
+    color:rgb(241, 86, 164);
+    margin: 20px;
+
 }
 
 .navbar-collapse {
     flex-basis: 100%;
-    flex-grow: 2;
+    display: flex;
     align-items: center;
     text-align:center;
-    justify-content: end;
-    
-}
+    justify-content: center;
+    list-style: none;
+  }
 
 .navbar-light .navbar-nav .nav-link  {
-    color: aquamarine;
+    color: rgb(182 15 98);
     text-transform: uppercase;
-    font-size:15px;
-    letter-spacing: 0.22rem;
-    margin-right: 10px;
-
+    font-size: 19px;
+    letter-spacing: 0.1rem;
+    margin-right: 31px;
+    text-decoration: none;
 }
+
+
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: white;
@@ -34,11 +52,18 @@
 }
 .navbar-light .navbar-nav .nav-link:focus{
     color: white;
-    border-right: 2.5px solid royalblue;
-    border-left: 2.5px solid royalblue;
-    border-bottom: 2.5px solid royalblue;
-    padding: 2rem;
+   
+    border-bottom: 2.5px solid rgb(240, 241, 245);
+   
 }
 .navbar-toggler-icon{
     background-color: fff;
+}
+ul.navbar-nav.ml-auto {
+    display: flex;
+  
+}
+.nav-item{
+    display: flex;
+
 }

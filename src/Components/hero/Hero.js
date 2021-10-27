@@ -2,7 +2,7 @@ import React from 'react'
 import "./Hero.css"
 import Flip from 'react-reveal/Flip';
 import Bounce from 'react-reveal/Bounce';
-
+import Dev from './web_dev2.png';
 //page de presentation
 
 const Hero = () => {
@@ -17,8 +17,11 @@ const Hero = () => {
                     <Flip>
                         <p>Web Devlopper</p>
                     </Flip>
+                    
                 </div>
+                <img src={Dev} className='hero-Img' />
             </div>
+           
         </>
     )
 }
