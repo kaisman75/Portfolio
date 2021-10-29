@@ -2,7 +2,9 @@ import React from 'react'
 import "./Hero.css"
 import Flip from 'react-reveal/Flip';
 import Bounce from 'react-reveal/Bounce';
-import Dev from './web_dev2.png';
+import Dev from '../img/web_dev2.png';
+import SocialMedia from "../socialMedia/SocialMedia";
+import { Fade } from "react-reveal";
 //page de presentation
 
 const Hero = () => {
@@ -17,9 +19,11 @@ const Hero = () => {
                     <Flip>
                         <p>Web Devlopper</p>
                     </Flip>
-                    
+                   <SocialMedia/> 
                 </div>
+                <Fade right duration={3000} distance="80px">
                 <img src={Dev} className='hero-Img' />
+               </Fade>
             </div>
            
         </>
