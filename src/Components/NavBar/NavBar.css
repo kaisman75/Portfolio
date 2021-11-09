@@ -5,6 +5,7 @@
 }
 
 .container{
+    height: 20vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -19,10 +20,11 @@
 }
 .navbar-light .navbar-brand{
     font-family: 'Lobster', cursive;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 800;
-    color:rgb(241, 86, 164);
+    color: rgb(182 15 98);
     margin: 20px;
+    text-decoration: none;
 
 }
 
@@ -31,23 +33,24 @@
     display: flex;
     align-items: center;
     text-align:center;
-    justify-content: center;
     list-style: none;
+    justify-content: flex-end
   }
 
 .navbar-light .navbar-nav .nav-link  {
     color: rgb(182 15 98);
+    
     text-transform: uppercase;
     font-size: 19px;
     letter-spacing: 0.1rem;
-    margin-right: 135px;
+    margin-left: 135px;
     text-decoration: none;
 }
 
 
 
 .navbar-light .navbar-nav .nav-link:hover {
-    background-color: rgb(206, 203, 203);
+  
     padding: 10px;
     border-radius: 1px dolid rgb(209, 208, 208) ;
     opacity: 0.5;

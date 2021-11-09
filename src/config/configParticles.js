@@ -11,13 +11,13 @@ const particlesConfig = {
             }
           },
           "color": {
-            "value": "#0000"
+            "value": "#af99ee"
           },
           "shape": {
             "type": "circle",
             "stroke": {
               "width": 0,
-              "color": "#000000"
+              "color": "#af99ee"
             },
             "polygon": {
               "nb_sides": 5
@@ -51,7 +51,7 @@ const particlesConfig = {
           "line_linked": {
             "enable": true,
             "distance": 100,
-            "color": "#0052ff",
+            "color": "#009900",
             "opacity": 0.4,
             "width": 1
           },

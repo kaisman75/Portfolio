@@ -5,14 +5,18 @@ import { Fade } from "react-reveal";
 const About = () => {
   return (
     <ContainerAbout>
-      <Fade bottom duration={3000} distance="60px">
+     
         <ContactImg>
+           <Fade bottom duration={3000} distance="60px">
           <img src={MyImage} alt="kais manai" />
+           </Fade>
         </ContactImg>
-        </Fade>
-<Fade top duration={3000} distance="60px">
+     
+     
         <ContainerText>
+           <Fade top duration={3000} distance="60px">
           <h1>About Me</h1>
+          <br/><br/>
           <p>
             With a professional experience of more than five years as a civil
             servant, I acquired an excellent command of the computer tool,
@@ -24,18 +28,26 @@ const About = () => {
             entire disposal to provide you with any further information during
             an interview.
           </p>
+            </Fade> 
         </ContainerText>
-      </Fade>
+    
+      <ContainerSvg>
       <Fade bottom duration={3000} distance="60px">
-      <ContainerSvgFamilly>
-        <svg width="400.000000pt" height="600.000000pt" viewBox="0 0 1280.000000 1060.000000">
-          <g
-            transform="translate(0.000000,1060.000000) scale(0.100000,-0.100000)"
-            fill="#000000"
-            stroke="none"
+        <ContainerSvgFamilly> 
+       
+          <svg
+            width="70vh"
+            height="100%"
+            viewBox="0 0 1280.000000 1060.000000"
           >
-            <path
-              d="M10352 10538 c-17 -35 -58 -100 -91 -145 -69 -95 -196 -231 -206
+            
+                <g
+              transform="translate(0.000000,1060.000000) scale(0.100000,-0.100000)"
+              fill="#000000"
+              stroke="none"
+            >
+              <path
+                d="M10352 10538 c-17 -35 -58 -100 -91 -145 -69 -95 -196 -231 -206
 -222 -3 4 -13 49 -21 100 -18 112 -22 129 -35 129 -24 0 -76 -196 -120 -450
 -11 -69 -27 -137 -35 -151 -14 -29 -581 -768 -696 -909 -190 -232 -442 -484
 -634 -632 -266 -205 -556 -352 -793 -400 -59 -12 -64 -11 -77 7 -16 22 -19
@@ -69,9 +81,9 @@ c-19 140 -143 553 -336 1117 -190 555 -171 447 -181 1045 -7 462 -19 734 -49
 242 -7 7 -21 7 -42 -1 -57 -20 -57 -17 -53 153 2 103 -1 158 -8 162 -6 4 -26
 -21 -48 -59 -20 -35 -40 -61 -45 -57 -4 4 -8 38 -10 76 -2 39 -8 71 -14 73 -6
 2 -25 -25 -42 -59z"
-            />
-            <path
-              d="M3386 10054 c-132 -42 -212 -141 -250 -311 -21 -92 -21 -300 -1 -419
+              />
+              <path
+                d="M3386 10054 c-132 -42 -212 -141 -250 -311 -21 -92 -21 -300 -1 -419
 16 -95 51 -222 66 -240 33 -41 68 -243 69 -396 0 -102 12 -91 -160 -154 -58
 -21 -199 -85 -314 -142 -355 -178 -377 -214 -426 -687 -38 -367 -68 -524 -165
 -860 -118 -408 -210 -646 -387 -993 -174 -344 -175 -335 35 -579 58 -67 110
@@ -110,9 +122,9 @@ c-19 140 -143 553 -336 1117 -190 555 -171 447 -181 1045 -7 462 -19 734 -49
 -301 13z m-2611 -5172 c23 -16 125 -156 122 -166 -6 -18 -136 -37 -215 -31
 -79 6 -184 35 -219 60 -13 9 -23 27 -23 40 0 32 45 83 83 94 39 11 238 14 252
 3z"
-            />
-            <path
-              d="M8600 5738 c-33 -75 -33 -85 -9 -171 16 -57 8 -67 -56 -67 -55 0 -74
+              />
+              <path
+                d="M8600 5738 c-33 -75 -33 -85 -9 -171 16 -57 8 -67 -56 -67 -55 0 -74
 -13 -55 -36 22 -26 142 -114 405 -299 503 -353 764 -560 832 -659 32 -47 33
 -52 33 -146 0 -108 -1 -107 74 -135 83 -30 112 -64 147 -173 94 -295 180 -749
 195 -1038 l7 -120 -41 -125 c-92 -279 -160 -623 -212 -1070 -29 -258 -49 -525
@@ -135,11 +147,23 @@ c-19 140 -143 553 -336 1117 -190 555 -171 447 -181 1045 -7 462 -19 734 -49
 -204 110 -273 155 -185 121 -447 321 -459 350 -8 19 -41 249 -41 284 0 21 -20
 -2 -43 -50 -27 -55 -28 -56 -48 -38 -11 10 -33 42 -50 71 -41 72 -77 113 -99
 113 -12 0 -27 -22 -50 -72z"
-            />
-          </g>
-        </svg>
-      </ContainerSvgFamilly>
+              />
+
+            </g>
+             <g transform="translate(1.000000,1400.000000) scale(1.100000,-1.100000)"
+              fill="#000000"
+              stroke="none">
+               <ellipse fill="#C6C6C6" cx="600.000" cy="200" rx="100" ry="80"/> 
+             </g>
+
+            
+          </svg> 
+        
+        </ContainerSvgFamilly>
       </Fade>
+
+
+ </ContainerSvg>   
     </ContainerAbout>
   );
 };
@@ -149,30 +173,32 @@ export default About;
 const ContainerAbout = styled.div`
   display: flex;
   justify-content: space-evenly;
-  width: 100vw;
-  height: 100vh;
+  width:100vw;
+  height:100%;
   align-items: center;
+ 
+  flex-wrap: nowrap;
 `;
 const ContactImg = styled.div`
-  width: 30rem;
-  height: 30rem;
+  width: 30%;
   box-shadow: 0 5px 15px #353535;
   border-radius: 4px;
   img {
-    width: 100%;
-    height: auto;
+    width:100%;
+    height:100%;
+    
   }
 `;
 const ContainerText = styled.div`
-  width: 50rem;
-  height:50rem;
+  width:30%;
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   p {
     text-align: center;
-    color: rgb(127, 141, 170);
+    color: #000;
     font-size:35px;
   }
   font-size: 25px;
@@ -180,5 +206,41 @@ const ContainerText = styled.div`
   text
   margin-top: 0px;
   font-family: "Google Sans Medium";
-`;
-const ContainerSvgFamilly = styled.div``;
+`
+const ContainerSvg=styled.div`
+
+
+`
+const ContainerSvgFamilly = styled.div`
+height:50%;
+transform: translateY(-9px);
+animation: eyeb 2s linear infinite;
+@keyframes eyeb {
+  0% {
+    transform: translateY(-10);
+    -ms-transform: translateY(-10);
+    -moz-transform: translateY(-10);
+  }
+
+  25% {
+    transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+  }
+
+  75% {
+    transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(10);
+    -moz-transform: translateY(10);
+    -ms-transform: translateY(10);
+  }
+}
+`
+
+
+

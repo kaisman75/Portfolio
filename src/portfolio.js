@@ -10,21 +10,21 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Vedansh",
+  title2: "Manai",
   logo_name: "vedansh.v()",
   // nickname: "harry / picleric",
-  full_name: "Vedansh Vijaywargiya",
+  full_name: "Kais Manai",
   subTitle:
     "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
   resumeLink:
     "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
-  mail: "mailto:im.vedanshvijay2002@gmail.com",
+  mail: "mailto:kaismanai1975@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/kaisman75/",
-  linkedin: "//https://www.linkedin.com/in/kais-manai-27827a8a/",
+  linkedin: "https://linkedin.com/in/kais-manai-27827a8a/",
   gmail: "kaismanai1975@gmail.com",
   // gitlab: "https://gitlab.com/harikanani",
   facebook: "https://www.facebook.com/kais.manai/",
@@ -94,20 +94,7 @@ const skills = {
             color: "#CB3837",
           },
         },
-        {
-          skillName: "Flask",
-          fontAwesomeClassname: "simple-icons:flask",
-          style: {
-            color: "#000000",
-          },
-        },
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "simple-icons:django",
-          style: {
-            color: "#0c4b33",
-          },
-        },
+      
         {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
@@ -129,13 +116,13 @@ const skills = {
         //     color: "#3DDC84",
         //   },
         // },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
+        //{
+          //skillName: "Java",
+          //fontAwesomeClassname: "simple-icons:java",
+          //style: {
+          //  color: "#f89820",
+          //},
+        //},
         // {
         //   skillName: "Flutter",
         //   fontAwesomeClassname: "simple-icons:flutter",
@@ -150,20 +137,20 @@ const skills = {
         //     color: "#29B0EE",
         //   },
         // },
-        {
-          skillName: "Linux",
-          fontAwesomeClassname: "simple-icons:linux",
-          style: {
-            color: "#000000",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
+        ////{
+        ////  skillName: "Linux",
+        ////  fontAwesomeClassname: "simple-icons:linux",
+        ////  style: {
+        ////    color: "#000000",
+        ////  },
+        ////},
+        ////{
+        ////  skillName: "MySQL",
+        ////  fontAwesomeClassname: "simple-icons:mysql",
+        ////  style: {
+        ////    color: "#4479A1",
+       ////   },
+       //// },
         // {
         //   skillName: "jQuery",
         //   fontAwesomeClassname: "simple-icons:jquery",
@@ -192,27 +179,27 @@ const skills = {
             color: "#E94E32",
           },
         },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
+       // {
+        //  skillName: "C",
+       //   fontAwesomeClassname: "simple-icons:c",
+        //  style: {
+       //     color: "#E94E32",
+        //  },
+       // },
+      //  {
+       //   skillName: "C++",
+       //   fontAwesomeClassname: "simple-icons:cplusplus",
+       //   style: {
+       //     color: "#E94E32",
+       //   },
+       // },
+       // {
+       //   skillName: "Python",
+       //   fontAwesomeClassname: "simple-icons:python",
+       //   style: {
+       //     color: "#3776AB",
+      //    },
+      //  },
       ],
     },
     {
