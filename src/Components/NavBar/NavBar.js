@@ -1,7 +1,7 @@
 import React from 'react'
 import Jump from 'react-reveal/Jump';
 import "./NavBar.css"
-import { Link, Links } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -30,7 +30,7 @@ const NavBar = () => {
           </Link>
       
           
-          <Link to="/porfolio" className="nav-link">
+          <Link to="/portfolio" className="nav-link">
               <a >Portfolio</a>
               </Link>
       

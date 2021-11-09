@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import MyImage from "../../Components/img/kais.jpg";
 import { Fade } from "react-reveal";
 const About = () => {
   return (
@@ -8,7 +7,7 @@ const About = () => {
      
         <ContactImg>
            <Fade bottom duration={3000} distance="60px">
-          <img src={MyImage} alt="kais manai" />
+          <img src="/images/kais.jpg" alt="kais manai" />
            </Fade>
         </ContactImg>
      
@@ -174,13 +173,14 @@ const ContainerAbout = styled.div`
   display: flex;
   justify-content: space-evenly;
   width:100vw;
-  height:100%;
+  height:80vh;
   align-items: center;
- 
+  margin:10px;
   flex-wrap: nowrap;
 `;
 const ContactImg = styled.div`
   width: 30%;
+  height:70%;
   box-shadow: 0 5px 15px #353535;
   border-radius: 4px;
   img {
@@ -190,8 +190,8 @@ const ContactImg = styled.div`
   }
 `;
 const ContainerText = styled.div`
-  width:30%;
- 
+  width:40%;
+  margin:10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -213,6 +213,7 @@ const ContainerSvg=styled.div`
 `
 const ContainerSvgFamilly = styled.div`
 height:50%;
+
 transform: translateY(-9px);
 animation: eyeb 2s linear infinite;
 @keyframes eyeb {

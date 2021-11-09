@@ -14,7 +14,7 @@ export default Home;
 
 const Container=styled.div`
 overflow: "hidden";
-width:"100%";
-height:"70%";
+width:100%;
+height:70%;
 position:relative;
 `

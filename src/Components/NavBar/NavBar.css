@@ -1,4 +1,4 @@
-@media screen and(max-widh:767px)and(min-width:576px) {
+@media (max-widh:767px){
     .collaps .navbar-collaps ul{
       display: none;
     }
@@ -11,7 +11,7 @@
     justify-content: space-evenly;
 }
  .navbar-expand-lg{
-    position: fixed;
+  
     width:80vw;
     z-index: 1;
     display: flex;

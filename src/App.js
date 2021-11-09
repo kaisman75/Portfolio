@@ -6,16 +6,19 @@ import About from "./pages/about/About";
 import ContactUs from "./pages/contact/ContactPage"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./Components/footer";
-
+import Portfolio from "./pages/portfolio/portfolio";
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <NavBar />
       <Routes>
+
       <Route path="/" element={<Home/>}/> 
       <Route path="/About" element={ <About/>}/>
-      <Route path="/contact" element={<ContactUs/>}/>
+      <Route path="/portfolio" element={<Portfolio/>}/>
+      <Route path="contact" element={<ContactUs/>}/>
+      
       </Routes>
       <Footer/>
 
