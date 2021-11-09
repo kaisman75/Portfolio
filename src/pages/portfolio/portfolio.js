@@ -50,6 +50,7 @@ export default Portfolio
  width:80%;
  height:60%;
  margin:20px auto;
+ padding:20px;
  display : grid;
  grid-gap:25px;
  grid-template-columns: repeat(4 ,minmax(0, 1fr));
