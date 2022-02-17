@@ -1,0 +1,58 @@
+.monPortrais{
+  width: 50%;
+  background-image: url("./kais2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.overlay{
+width:100vw;
+height: 100vh;
+position: absolute;
+background: rgb(112,156,200);
+background: linear-gradient(
+90deg
+, rgb(112, 156, 200) 9%, rgb(189 217 235) 59%, rgba(178, 215, 251, 0.07) 91%);
+color :#012b3d;
+display:flex;
+align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 20px;
+}
+.presentation{
+  width: 83%;
+  display:flex;
+  flex-direction: column;
+}
+.pres_name>h1,h2{
+  width: 50%;
+  margin-left: 30px;
+  letter-spacing: 13px;
+}
+.social_links{position: absolute;
+  left: 100px;
+  z-index: 999;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 999;}
+  .social_links>ul>li{
+      list-style: none;
+  }
+.vert_sp1{
+  width: 2px;
+  height: 60px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+.vert_sp2{
+  width: 2px;
+  height: 60px;
+  background-color: black;
+  margin-top: 20px;
+}
+ 

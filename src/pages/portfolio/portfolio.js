@@ -4,7 +4,7 @@ import Jump from 'react-reveal/Jump';
 function Portfolio() {
     return (
       
-            <Container>
+            <Container id="portfolio">
                 <Jump>
                             <Wrap>
                                 <img src="/images/kais.jpg" alt="" />
@@ -47,8 +47,8 @@ export default Portfolio
 
 
  const Container=styled.div`
- width:80%;
- height:60%;
+ width:100vw;
+ height:100vh;
  margin:20px auto;
  padding:20px;
  display : grid;

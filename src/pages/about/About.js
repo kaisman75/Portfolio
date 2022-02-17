@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Fade } from "react-reveal";
 const About = () => {
   return (
-    <ContainerAbout>
+    <ContainerAbout id="About">
      
         <ContactImg>
            <Fade bottom duration={3000} distance="60px">
@@ -173,7 +173,7 @@ const ContainerAbout = styled.div`
   display: flex;
   justify-content: space-evenly;
   width:100vw;
-  height:80vh;
+  height:100vh;
   align-items: center;
   margin:10px;
   flex-wrap: nowrap;

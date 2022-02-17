@@ -1,7 +1,7 @@
 import React from 'react'
 import Jump from 'react-reveal/Jump';
 import "./NavBar.css"
-import { Link } from "react-router-dom";
+
 
 
 
@@ -10,34 +10,34 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className="container">
+    <div className="Nav">
       <Jump>
     <nav className="navbar navbar-expand-lg  navbar-light ">
-      <Link to="/" className="navbar-brand">
-      <a>KaisMan</a>
-      </Link>
+      
+      <a href='#home'>KaisMan</a>
+   
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           
             <li className="nav-item ">
-            <Link to="/" className="nav-link"> 
-            <a >Home </a>
-            </Link>
+            <a href='#hero'>Home </a>
+            </li>
           
           
-          <Link to="/About" className="nav-link">
-            <a> About me </a>
-          </Link>
+          
+            <li className="nav-item ">
+            <a href="#About"> About me </a>
+            </li>
       
           
-          <Link to="/portfolio" className="nav-link">
-              <a >Portfolio</a>
-              </Link>
+            <li className="nav-item ">
+              <a href="#portfolio">Portfolio</a>
+              </li>
       
       
-              <Link to="/contact" className="nav-link">
-              <a >Contact me</a>
-              </Link>
+              <li  className="nav-item ">
+              <a href="#contact">Contact me</a>
+            
             </li>
           
         </ul>

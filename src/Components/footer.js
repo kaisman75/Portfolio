@@ -1,13 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import {Link} from  'react-router-dom'
 import SocialMedia from "./socialMedia/SocialMedia";
 import Fade from 'react-reveal/Fade';
 
 function Footer() {
     return (
  
-        <Container>
+        <Container id="footer">
          
             <Coordonnee>
             <Fade left duration={3000} distance="60px">
@@ -21,26 +20,28 @@ function Footer() {
             
             <SitePages>
             <Fade bottom duration={3000} distance="60px">
-            <li >
-            <Link to="/" > 
-            <a >Home </a>
-            </Link>
-          
-          
-          <Link to="/About" >
-            <a> About me </a>
-          </Link>
-      
-          
-          <Link to="/porfolio" >
-              <a >Portfolio</a>
-              </Link>
-      
-      
-              <Link to="/contact" >
-              <a >Contact me</a>
-              </Link>
+           <ul>   
+            <li className="nav-item ">
+            <a href='#home'>Home</a>
             </li>
+          
+          
+          
+            <li className="nav-item ">
+            <a href="#About"> About me </a>
+            </li>
+      
+          
+            <li className="nav-item ">
+              <a href="#portfolio">Portfolio</a>
+              </li>
+      
+      
+              <li>
+              <a href="#contact">Contact me</a>
+            </li>
+          
+        </ul>
             </Fade>
             </SitePages>
             <MediaSocials>

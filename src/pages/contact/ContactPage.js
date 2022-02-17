@@ -30,10 +30,10 @@ const ContactUs = () => {
   };
 
   return (
-   <Fade bottom duration={3000} distance="60px"> 
-    <Container>
-    
-      <form ref={form} onSubmit={sendEmail}>
+  
+    <Container id="contact">
+     <Fade bottom duration={3000} distance="60px"> 
+      <form  ref={form} onSubmit={sendEmail}>
         <input className="name"
           type="text"
           name="user_name"
@@ -51,9 +51,9 @@ const ContactUs = () => {
           Submit
         </InputBtn>
       </form>
-
+ </Fade>
     </Container>
-    </Fade>
+   
     
   );
 };
@@ -61,9 +61,8 @@ const ContactUs = () => {
 export default ContactUs;
 
 const Container = styled.div`
-  width:50%;
-  height:50vh;
-  background: black;
+  width: 100vw;
+  height: 100vh;
   margin: 120px auto;
   display: flex;
   flex-direction: column;
@@ -72,9 +71,10 @@ const Container = styled.div`
   border-radius:10px;
 
 
-  form {
-    width:80%;
-    height:80vh;
+   form{
+    background-color: #709cc8;
+    width:70%;
+    height:70vh;
     color: #fff;
     display: -webkit-box;
     display: -webkit-flex;
@@ -133,11 +133,10 @@ const Container = styled.div`
   }
 `
 const InputBtn = styled.button`
- width:30%;
- 
+ width:120px;
  font-size:20px;  
  &:active{
-     transform:scale(1.2);
+     transform:scale(0.8);
  }
 
 `
